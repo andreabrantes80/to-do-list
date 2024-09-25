@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List - Senai</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Cabeçalho com título principal -->
+  <header>
+    <h1>SENAI To-Do List</h1>
+  </header> 
+
+  <section class="todo-container">
+    <div class="input-area">
+        <!-- campo de entrada para add novas tarefas -->
+         <input type="text" id="nova-tarefa" placeholder="Adicione uma nova tarefa">
+         <button id="adicionar-tarefa" click="btnAdicionar()"><i class="fasfa-plus"></i>Adicionar</button>
+    </div>
+    <ul id="lista-tarefas"></ul>
+
+  </section>
+  <!-- Rodape´fixo no final da página -->
+   <!-- <footer>
+    <p>Desenvolvido por André &copy; Todos os Direitos Reservados</p>
+   </footer> -->
+   <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h4>Contato</h4>
+            <p><i class="fas fa-phone-alt"></i> +55 (61) 1234-5678</p>
+            <p><i class="fas fa-envelope"></i> meloabrantes@gmail.com</p>
+        </div>
+        <div class="footer-column">
+            <h4>Endereço</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Rua Exemplo, 123, São Paulo - SP</p>
+            <p><i class="fas fa-clock"></i> Seg-Sex: 8:00 - 18:00</p>
+        </div>
+        <div class="footer-column">
+            <h4>Siga-nos</h4>
+            <p><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></p>
+            <p><a href="#"><i class="fab fa-instagram"></i> Instagram</a></p>
+            <p><a href="#"><i class="fab fa-twitter"></i> Twitter</a></p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Criado por André Melo. Todos os direitos reservados.</p>
+    </div>
+</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
